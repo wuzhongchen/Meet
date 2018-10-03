@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Meet</string>
+
+    <string name="title_1">Cool card</string>
+    <string name="title_2">Ok card</string>
+    <string name="title_3">Bad card</string>
+    <string name="title_4">Ugly card</string>
+
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+    <string name="tv_team_room_title">Functions in team room mode:</string>
+    <string name="title_activity_team_room">Team Room</string>
+    <string name="title_activity_national_room">National Room</string>
+    <string name="title_activity_offline">Offline</string>
+    <string name="title_activity_stt">Speech To Text</string>
+
+    <!--Strings in main activity-->
+    <string name="function_list">Function list:</string>
+    <string name="function_of_real_time">Real Time Mode</string>
+    <string name="function_of_team_room">Team room</string>
+    <string name="function_of_national_room">National room</string>
+    <string name="function_of_offline">Offline mode</string>
+    <string name="function_of_stt">Speech To Text</string>
+
+    <!--Strings in real time mode-->
+
+    <string name="tv_national_room_title">Functions in national room mode:</string>
+    <string name="btn_join_room">Meet</string>
+    <string name="btn_open_mic">Open mic</string>
+    <string name="btn_close_mic">Close mic</string>
+    <string name="btn_open_speaker">Open speaker</string>
+    <string name="btn_close_speaker">Close speaker</string>
+    <string name="btn_quit_room">Quit</string>
+
+    <!--Strings in offline & stt mode-->
+    <string name="tv_title_offline">Functions in offline mode:</string>
+    <string name="tv_title_stt">Functions in STT mode:</string>
+    <string name="btn_message_key">Apply message key</string>
+    <!--<string name="btn_set_stt_mode">Set to STT mode</string>-->
+    <!--<string name="btn_set_msg_mode">Set to MSG mode</string>-->
+    <string name="btn_start_recode">Start recode</string>
+    <string name="btn_stop_recode">Stop recode</string>
+    <string name="btn_uplode_voice">Uplode voice</string>
+    <string name="btn_download_voice">Download voice</string>
+    <string name="btn_play_voice">Play voice</string>
+    <string name="btn_stop_voice">Stop voice</string>
+    <string name="btn_speech_to_text">Speech to text</string>
+    <!--<string name="btn_reset">Reset</string>-->
+
+    <!--Common strings-->
+    <string name="tv_api_result">Result of the API:</string>
+    <string name="tv_callback_result">Result of the callback:</string>
+</resources>

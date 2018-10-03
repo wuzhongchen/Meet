@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/margin_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/tv_functions"
+        style="@style/TitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:padding="@dimen/fab_margin"
+        android:text=" "/>
+
+    <TextView
+        android:id="@+id/tv_real_time"
+        style="@style/BodyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_functions"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text=" "/>
+
+    <LinearLayout
+        android:id="@+id/ll_room"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_functions"
+        android:layout_toEndOf="@id/tv_real_time"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_team_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/function_of_team_room"/>
+
+        <Button
+            android:id="@+id/btn_national_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/function_of_national_room"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_offline"
+        style="@style/BodyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_real_time"
+        android:padding="@dimen/padding"
+        android:text=" "/>
+
+    <Button
+        android:id="@+id/btn_offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ll_room"
+        android:layout_below="@id/ll_room"
+        android:layout_toEndOf="@id/tv_offline"
+        android:text="@string/function_of_offline"/>
+
+    <TextView
+        android:id="@+id/tv_stt"
+        style="@style/BodyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_offline"
+        android:padding="@dimen/padding"
+        android:text= " "/>
+
+    <Button
+        android:id="@+id/btn_stt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ll_room"
+        android:layout_below="@id/btn_offline"
+        android:layout_toEndOf="@id/tv_stt"
+        android:text="@string/function_of_stt"/>
+
+</RelativeLayout>

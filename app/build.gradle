@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.example.administrator.meet"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res',
+                            '/src/main/res/layout/',
+                            '/src/main/res/layouts/',
+                            '/src/main/res/layouts/login_activity',
+                            '/src/main/res/layouts/register_activity',
+                            '/src/main/res/layouts/homepage_activity',
+                            '/src/main/res/layouts/running_activity',
+                            '/src/main/res/layouts/chatting_activity',
+                            '/src/main/res/layouts/meet_fragment',
+                            '/src/main/res/layouts/running_fragment',
+                            '/src/main/res/layouts/finding_fragment',
+                            '/src/main/res/layouts/heart_rate_test',
+                    ]
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26+'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/okio-1.14.1.jar')
+    implementation 'com.android.support:design:26+'
+    implementation 'com.makeramen:roundedimageview:2.2.1'
+    //3D地图so及jar
+    implementation 'com.amap.api:3dmap:latest.integration'
+    //定位功能
+    implementation 'com.amap.api:location:latest.integration'
+    //搜索功能
+    implementation 'com.amap.api:search:latest.integration'
+    implementation 'com.android.support:cardview-v7:26+'
+    implementation files('libs/GCloudVoice.jar')
+}

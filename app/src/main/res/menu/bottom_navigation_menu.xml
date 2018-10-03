@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_running"
+        android:icon="@drawable/running"
+        android:title="Run" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/magnifying"
+        android:title="Find" />
+
+    <item
+        android:id="@+id/navigation_Meet"
+        android:icon="@drawable/friend"
+        android:title="Meet" />
+
+</menu>

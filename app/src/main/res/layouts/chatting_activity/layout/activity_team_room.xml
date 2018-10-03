@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:orientation="vertical">
+    <!--android:background="@drawable/chatviewview"-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:orientation="vertical"
+        tools:context=".TeamRoomActivity">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_title"-->
+            <!--style="@style/TitleTv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/padding"-->
+            <!--android:text="@string/tv_team_room_title"/>-->
+
+
+
+        <!--<include layout="@layout/layout_result"/>-->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/backbtn"
+        android:text="There is a soul waiting for access" />
+
+    <Button
+        android:id="@+id/speaker"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/openmic"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="102dp"
+        android:background="@drawable/newerji" />
+
+    <Button
+        android:id="@+id/openmic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="121dp"
+        android:background="@drawable/blue_phone" />
+
+</RelativeLayout>

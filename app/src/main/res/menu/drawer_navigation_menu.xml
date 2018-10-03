@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activate_vip"
+            android:icon="@drawable/zuanshi"
+            android:title="Activate VIP" />
+
+        <item
+            android:id="@+id/my_album"
+            android:icon="@drawable/xiangji"
+            android:title="My Album" />
+        <item
+            android:id="@+id/my_wallet"
+            android:icon="@drawable/qianbao"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/my_collections"
+            android:icon="@drawable/shoucang"
+            android:title="My Collections" />
+
+        <item
+            android:id="@+id/my_achievements"
+            android:icon="@drawable/chenjiu"
+            android:title="My Achievements" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/shezhi"
+            android:title="Settings" />
+    </group>
+
+
+
+</menu>
